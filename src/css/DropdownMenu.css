@@ -3,12 +3,10 @@
   background-color: white;
   position: absolute !important;
   right: 0 !important;
-  top: calc(100% + 0.25rem);
-  /* padding: 8px 0; */
+  top: calc(100% + 0.25rem); 
   border-radius: 0.25rem;
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 0px 1px, rgb(0 0 0 / 20%) 0px 0px 0px;
-  font-size: 12px;   
-  /* outline: 1px solid red; */
+  font-size: 12px;    
   width: 20rem; 
   z-index: 333;
 }
@@ -44,9 +42,7 @@ width: 81%;
   display: flex;
   justify-content: space-between;
   padding: 1.2rem 1rem;
-  border-bottom:1px solid #F4F4F4;
-      /* box-shadow: rgb(0 0 0 / 15%) 0px 0px 0px 1px, rgb(0 0 0 / 20%) 0px 0px 0px;
-  font-size: 12px; */
+  border-bottom:1px solid #F4F4F4; 
   font-weight: bold; 
   color: #181818;
     margin: 0.5rem 0px;
@@ -200,10 +196,7 @@ align-items: center;
 @media only screen and (max-width: 992px) {
   .headerOption {
     margin: 6px;
-  }
-  /* .headerOption_title {
-    display: block;
-  } */
+  } 
 }
 
 .drop-contianer{
@@ -470,19 +463,11 @@ align-items: center;
   margin-left: 10px;
   font-size: .9rem;
 }
-.filter-dropdown {
-  /* position: absolute; */
-  background-color: #fff;
-  /* padding: 15px 25px; */
-  /* top: 148px;
-  left: 12rem;
-  z-index: 999; */
-  /* width: max-content; */
+.filter-dropdown { 
+  background-color: #fff; 
   overflow: hidden;
   border-radius: 3px;
-  animation: dropFilter .5s;
-  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.25),
-  0 0 16px rgba(0, 0, 0, 0.05); */
+  animation: dropFilter .5s; 
   -webkit-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;

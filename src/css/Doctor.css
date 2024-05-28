@@ -7,11 +7,7 @@
 	margin-top: 2rem; 
 }
 
-/* .photo_uri{
-	width: 100px;
-	height: 100px;
-} */
-
+ 
  
 .user_card_image{
 	width: 69.61px;
@@ -79,10 +75,7 @@
 	font-weight: 800;  
  color: var(--black); 
 }
-/* .user_card_image_p_text{
-	font-weight: 800;  
- color: #999DA2; 
-} */
+ 
  
 .user_card_image_two{
 	display: flex;

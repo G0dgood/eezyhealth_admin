@@ -6,14 +6,12 @@
     justify-content: space-between;
 }
 #setting-side-nav{
-    width: 25%; 
-    /* position: fixed; */
+    width: 25%;  
 }
 .nav-tabs-setting{ 
     display: flex !important;
     flex-direction: column !important;
-    /* gap: 1.75rem !important;  */
-    /* padding: 20px 30px 0 30px; */
+    
     cursor: pointer; 
 }
 .nav-tabs-setting li{
@@ -67,21 +65,13 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;;
 				background-color: var(--white);
 }
-/*     
-.email_phone_details{
-     border: 1px solid #ABACAE;
-    border-radius: 10px;
-    padding: 20px;
-} */
+ 
 .info-form{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-/* .info-form input, .info-form-block input{
-    width: 100%;
-    border: none;
-} */
+ 
 .info-form-block{
     display: block;
 }
@@ -328,10 +318,7 @@ border: 0px !important;
   -o-transition: .3s ease-in-out !important;
   transition: .3s ease-in-out !important;
 }
-/* .filter-btn:hover {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15), 0 0 2px rgba(0, 0, 0, 0.15),
-    0 0 16px rgba(218, 209, 209, 0.15), 0 0 32px rgba(218, 209, 209, 0.15) !important;
-} */
+ 
 .filter-btn p {
   color: #5c5c5c !important;
   font-weight: bold !important;

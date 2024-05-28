@@ -236,8 +236,7 @@
   font-weight: 500 !important; 
 }
 .finalStatus-Closed{
-  background-color: var(--accent-green);
-  /* border : 2px solid #2ecc71; */
+  background-color: var(--accent-green); 
   color:var(--white) ;
    padding: 1rem 1rem;
   font-weight: 500 !important; 
@@ -312,8 +311,7 @@ border: 1px solid var(--accent-green);
     display: flex;
     flex-wrap: wrap!important;
     justify-content: space-between!important;
-    margin-top: 0.8rem;
-    /* padding: 0.8rem 0.4rem; */
+    margin-top: 0.8rem; 
 }
 
 .pageEntries {

@@ -1,13 +1,6 @@
-* NetworkConnetion */
-
- 
-
-.alert-container {
-  /* position: absolute !important; */
-  /* top: 0; */ 
-  /* width: 100%; */
-  display: flex;
-  /* justify-content: center; */
+  
+.alert-container { 
+  display: flex; 
    z-index: 999 !important;  
   margin: auto !important;
 }
@@ -15,8 +8,7 @@
 .alert  {
   margin: 10px ;
   padding: 10px;
-  display: none;
-  /* position: relative; */
+  display: none; 
   border-radius: 5px;
   box-shadow: 0 0 15px 5px #ccc;
   font-size: small;

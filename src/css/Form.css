@@ -18,7 +18,7 @@ padding: 12px 20px;
 }
 
  
-/* Additional styling for focus state */
+ 
 input:focus {
   outline: none;
   border-color: var(--accent-green);  
@@ -29,10 +29,7 @@ input:focus {
 input :hover{ 
   border: 1px solid var(--accent-green-soft) !important; 
 }
-  /* input :focus{ 
-  border: 1px solid var(--accent-green) !important; 
-} */
-/* button */
+  
 .btn{
 background-color: var(--accent-green);
 border: 2px solid var(--accent-green) !important;  
@@ -113,10 +110,7 @@ outline: none ;
 border-radius: 5px;
 cursor: pointer; 
 }
-/* button:active { 
-    border: 2px solid var(--accent-green);
-     padding: 9px 20px;
-} */
+ 
 
 #custom-btn-two{
     display: flex;
@@ -282,30 +276,30 @@ textarea :hover{
     box-sizing: border-box;
 }
 
-/* Targeting the control (container) */
+ 
 .react-select__control {
   border: 1px solid var(--text);
   border-radius: 4px;
 }
 
-/* Targeting the focused state of the control */
+ 
 .react-select__control--is-focused {
   box-shadow: 0 0 0 1px var(--black);
 }
 
-/* Targeting the individual option */
+ 
 .react-select__option {
-  background-color: var(--white); /* Default background color */
-  color: var(--text); /* Default text color */
+  background-color: var(--white); 
+  color: var(--text);  
 }
 
-/* Targeting the focused state of the option */
+ 
 .react-select__option--is-focused {
   background-color: var(--black);
   color: var(--white);
 }
 
-/* Targeting the dropdown menu */
+ 
 .react-select__menu {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -320,30 +314,7 @@ textarea :hover{
 	font-size: 14px;
 	color: var(--text);
 }
-
-
-/* #custom-btn:active{
-  padding: 10px  ;
-  width: 100%;
-  text-align: center;
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold !important;
-    border: 1px solid var(--accent-purple);
-} */
-
-/* Adjust icon margin for spacing */
-/* button svg {
-  margin-right: 5px !important;
-} */
-
-/* Additional styling for focus state */
-/* button:focus {
-  border-color: #007bff;  
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
-} */
-
+ 
 
 .flex-date-input{
   display: grid;
@@ -474,7 +445,7 @@ form#ticket-form .form-grp_btn {
  
  .editor {
   
-  /* height: 180px; */
+ 
   margin-bottom: 2rem;
 }
 

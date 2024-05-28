@@ -184,8 +184,7 @@ color: #fff;
  
 
 .tp-shared-container .tp-shared-with {
-  padding: 1rem;
-  /* padding-right: 5rem; */
+  padding: 1rem; 
   border-top: 1px solid var(--clr-blue);
 }
 
@@ -196,7 +195,7 @@ color: #fff;
 }
 
 .tp-shared-container .tp-update {
-  /* margin-top: 1rem; */
+ 
   width: 250px;
 }
 
@@ -263,15 +262,13 @@ color: #fff;
   }
 
   .ChatProgressView-close{
-    background-color: var(--accent-red-light);
-    /* border: 1px solid #005b90!important;; */
+    background-color: var(--accent-red-light); 
     border-radius: 3px;
     height: 20px;
     padding: 16px 4px !important;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* font-size:30px; */
+    align-items: center; 
     
   }
  
