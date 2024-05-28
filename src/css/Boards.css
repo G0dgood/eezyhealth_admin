@@ -1,45 +1,4 @@
-/* .dashboard-first-icon-boards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var();
-    background-color: #ffcccc; 
-    border-radius: 5px;
-    font-size: smaller;
-    white-space: nowrap;
-    padding: 0px 10px;
-    height: 30px;
-				gap: 3px;
-				font-weight: bold;
-					border:1px solid  #ffcccc;
-}
-.dashboard-first-icon-boards:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--accent-green);
-    background-color: #ffcccc; 
-    border-radius: 5px;
-    font-size: smaller;
-    white-space: nowrap;
-    padding: 0px 10px;
-    height: 30px;
-				gap: 3px;
-				font-weight: bold;
-				border:1px solid  var(--accent-green);
-}
-
-.dashboard-first-icon-boards-move{
-	display: flex;
-	align-items: center;
-}
-
- .dashboard-first-card-boards {
-    display: flex;
-    justify-content: space-between; 
-				align-items: center;
-} */
-
+ 
 .tasks-board-items-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -110,37 +69,7 @@ gap: 2rem;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* .tasks-board-container-sup-header{  
-				display: flex; 
-
-} */
-
-/* input[type=checkbox] {
-  position: relative;
-	border: 2px solid var(--accent-green);
-	border-radius: 2px;
-	background: none;
-	cursor: pointer;
-	line-height: 0;
-	margin: 0 .6em 0 0;
-	outline: 0;
-	padding: 0 !important;
-	vertical-align: text-top;
-	height: 20px;
-	width: 20px;
-	-webkit-appearance: none;
-  opacity: .5;
-		border-radius: 5px;
-} */
-
-/* .tasks-board-container-sup-header input[type=checkbox]:hover {
-  opacity: 1;
-}
-
-.tasks-board-container-sup-header input[type=checkbox]:checked {
-  background-color: var(--accent-green);
-  opacity: 1;
-} */
+ 
 
 input[type=checkbox]:before {
   content: '';
@@ -166,8 +95,7 @@ input[type=checkbox]:before {
 .tasks-board-container-second{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	/* margin-top: 1rem; */
+	align-items: center; 
 }
 
 .Ugent{

@@ -1,75 +1,10 @@
-/* .custom-btn{
-  color: #fff !important;
-  border-radius: 3px !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease !important;
-  outline: none !important;
-  background: rgb(0, 172, 238) !important;
-  height: 42px !important;
-  border: none !important;
-  padding: 0px 20px !important;
-  box-shadow: 0 0 4px rgba(16, 156, 241, .15), 0 0 16px rgba(16, 156, 241, .15), 0 0 32px rgba(16, 156, 241, .15) !important;
-}
-
-.custom-btn-gray{
-  color: #fff !important;
-  border-radius: 3px !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease !important;
-  outline: none !important;
-  background: rgb(171, 171, 171) !important;
-  height: 42px !important;
-  border: none !important;
-  padding: 0px 20px !important;
-  box-shadow: 0 0 4px rgba(16, 156, 241, .15), 0 0 16px rgba(16, 156, 241, .15), 0 0 32px rgba(16, 156, 241, .15) !important;
-}
-
-.custom-btn-outline{
-  color: rgb(0, 172, 238)  !important;
-  border-radius: 3px !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease !important;
-  outline: none !important;
-  background: #fff!important;
-  height: 42px !important;
-  border: none !important;
-  padding: 0px 20px !important;
-  border: 1px solid var( --accent-green) !important;
-  box-shadow: 0 0 4px rgba(16, 156, 241, .15), 0 0 16px rgba(16, 156, 241, .15), 0 0 32px rgba(16, 156, 241, .15) !important;
-}
-.custom-btn-100{ 
-  color: #fff !important;
-  border-radius: 3px !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease !important;
-  outline: none !important;
-  background: rgb(0, 172, 238) !important;
-  height: 42px !important;
-  width: 100%  ;
-  border: none !important;
-  padding: 0px 20px !important;
-  box-shadow: 0 0 4px rgba(16, 156, 241, .15), 0 0 16px rgba(16, 156, 241, .15), 0 0 32px rgba(16, 156, 241, .15) !important;
-}
-
-.custom-btn:hover {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: 1px solid var( --accent-green) !important;
-  color:var( --accent-green) !important;
-}
-/* .custom-btn-100 :hover{ 
-   height: 42px !important; 
-  background: #fff !important;
-  box-shadow: none !important;
-  border: 1px solid var( --accent-green) !important;
-  color:var( --accent-green) !important;
-} */
+  
 .custom-btn-outline:hover {
   background: transparent !important;
   box-shadow: none !important;
     background: rgb(0, 172, 238) !important;
   color: #fff !important;
-} */
+} 
 
 .flex-btn{
   float: right;
