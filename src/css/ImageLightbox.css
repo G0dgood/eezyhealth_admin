@@ -1,0 +1,50 @@
+ /* Style for the whole image lightbox container */
+.image-lightbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the main image container */
+.main-image {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* Style for the zoomed-in main image */
+.main-image.zoomed {
+  transform: scale(2); /* Adjust the zoom level as needed */
+}
+
+/* Style for the main image */
+.main-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Style for the thumbnails container */
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each thumbnail */
+.thumbnail {
+  cursor: pointer;
+  margin: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Style for the active thumbnail (current main image) */
+.thumbnail.active {
+  opacity: 0.7;
+}
+
+/* Style for the thumbnail images */
+.thumbnail-image {
+  max-width: 50px; /* Thumbnail size (adjust as needed) */
+  max-height: 50px; /* Thumbnail size (adjust as needed) */
+}

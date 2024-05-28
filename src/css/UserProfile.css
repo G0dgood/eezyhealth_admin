@@ -1,0 +1,120 @@
+ .container { 
+  height: auto;
+  width: 100%;
+}
+
+.container-head { 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 80px; 
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(12, 12, 29, 0.6306897759103641) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.btn-case{
+  background-color: var(--white) ;
+  white-space: nowrap; 
+  padding: 4px 15px; 
+  border: 2px solid #d6d6d6; 
+  border-radius: 2px; 
+  box-shadow: var(--box-shadow); 
+ cursor: pointer;  
+ color: var(--accent-green);
+ font-weight: bold;  
+ font-size: 12px;
+ -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+ transition: all 0.5s;
+}
+
+.btn-case.active {  
+  background-color:  var(--accent-green)  ;
+  color: var(--white)  ; 
+   
+}
+.page-btn-title{ 
+  background-color: #cee0ea;
+  padding:2px; 
+  border-radius: 2px;
+  height: fit-content;
+  width: fit-content;
+  white-space: nowrap; 
+ margin: auto;  
+ overflow-x: auto !important;
+ margin-bottom: 1rem !important;
+} 
+ 
+.profile-picture img {
+  border-radius: 100%;
+  margin-top: -60px;
+  border: solid;
+  border-width: 4px;
+  border-color: white; 
+}
+ 
+.followers {
+  padding-right: 60px;
+}
+ 
+ 
+.message-me {
+  width: 50%;
+  position: relative;
+  padding: 18px 10px 18px 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border: solid #ff2d55 1px;
+  border-radius: 50px;
+  background-color: #ff2d55;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+}
+.follow-me {
+  width: 50%;
+  position: relative;
+  padding: 18px 10px 18px 10px;
+  margin-top: 20px;
+  border: solid gray 1px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  color: rgb(49, 49, 49);
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.message-me:hover {
+  background-color: #ffffff;
+  color: rgb(54, 54, 54);
+}
+.follow-me:hover {
+  background-color: #408afa;
+  color: rgb(255, 255, 255);
+  border-color: #408afa;
+}
+
+
+.text-center{
+    font-family: "Mulish" !important;
+}
+@media (min-width: 600px) {
+ 
+
+  .container-head {
+    border-radius: 2px;
+  }
+ 
+}
+
+ 

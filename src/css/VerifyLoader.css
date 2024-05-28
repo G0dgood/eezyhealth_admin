@@ -1,0 +1,93 @@
+.loader-container_main{
+	height: 200px;
+}
+
+
+.loader {
+  scale: 3;
+  width: 45px;
+  height: 45px;
+  transform: rotateZ(0deg);
+}
+.loader.loading {
+  animation-name: rotate-loader;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: normal;
+}
+.loader .loader-circle {
+  fill: #0275d8;
+  transition: fill 0.3s ease;
+}
+.loader .loader-path {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 40% 0% 40% 1000%;
+  stroke-dashoffset: -176%;
+}
+.loader.success, .loader.error {
+  animation-name: none;
+}
+.loader.success .loader-circle {
+  fill: #5cb85c;
+}
+.loader.success .loader-path {
+  animation-name: loader-success;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.loader.error .loader-circle {
+  fill: #c9302c;
+}
+.loader.error .loader-path {
+  animation-name: loader-error;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate-loader {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+@keyframes loader-success {
+  0% {
+    stroke-dashoffset: -176%;
+  }
+  100% {
+    stroke-dashoffset: -44%;
+  }
+}
+@keyframes loader-error {
+  0% {
+    stroke-dasharray: 40% 0% 40% 1000%;
+    stroke-dashoffset: -176%;
+  }
+  35% {
+    stroke-dasharray: 40% 0% 40% 1000%;
+  }
+  100% {
+    stroke-dasharray: 55% 48% 55% 1000%;
+    stroke-dashoffset: -1;
+  }
+}
+.loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

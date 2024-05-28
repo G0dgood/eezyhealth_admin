@@ -1,0 +1,236 @@
+.user_card_container{
+	display: flex; 
+	justify-content: space-around;
+	width: 100%;
+ gap: 40px;
+	flex-wrap: wrap;
+	margin-top: 2rem; 
+}
+
+/* .photo_uri{
+	width: 100px;
+	height: 100px;
+} */
+
+ 
+.user_card_image{
+	width: 69.61px;
+	height: 69px;
+	background-color: var(--gray-light);
+	border-radius: 50px;
+		display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+
+.user_card_image_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+	padding: 20px 30px;
+	align-items: center;
+		width: 249px;
+	height: 294px;
+	border-radius: 5px; 
+	position: relative;
+		overflow: hidden;
+		cursor: pointer;
+}
+
+.colors_card_one{ 
+	background-color: #EAF2C0;
+}
+.colors_card_two{ 
+	background-color: #D2EDCD;
+}
+.colors_card_three{ 
+	background-color: #E9E3EA;
+}
+.colors_card_four{ 
+	background-color: #EBF2D8;
+}
+.colors_card_five{ 
+	background-color: #DBE1EA;
+}
+.colors_card_six{ 
+	background-color: #EBE9E7;
+}
+.colors_card_seven{ 
+	background-color: #D1F1D9;
+}
+.colors_card_eight{ 
+	background-color: #DDE4C1;
+}
+
+.user_card_image_top{
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	gap: 12px;
+}
+
+.user_card_image_one_text{
+	font-weight: 800;  
+ color: var(--sidebar-text); 
+}
+.user_card_image_two_text{
+	font-weight: 800;  
+ color: var(--black); 
+}
+/* .user_card_image_p_text{
+	font-weight: 800;  
+ color: #999DA2; 
+} */
+ 
+.user_card_image_two{
+	display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
+	 color: #AEB490; 
+			font-weight: 700;  
+	gap: 5px;
+}
+.user_card_text_mail_container{
+	padding-top: 1rem;
+}
+
+.user_card_image_three {
+	display: flex;  
+ align-items: center; 
+		gap: 10px;
+}
+.user_card_image_three p{
+	font-weight: 500;  
+ color: var(--black); 
+}
+ 
+.user_card_image_star{
+		display: flex;  
+ align-items: center; 
+	gap: 5px;
+}
+.user_card_image_star svg{
+	font-size: 15px;
+}
+
+.user_card_text_container{
+			display: flex;  
+ align-items: center; 
+	gap: 10px; 
+}
+
+.user_card_text_mail_container{
+	display: flex;  
+	flex-direction: column;
+	border-top: 1px solid  #b2b89461; 
+ gap: 10px; 
+}
+.user_card_text_mail_container svg{
+  font-size: 12px;
+}
+.user_card_text_mail_container h6{
+ font-size: 12px;
+ color: var(--sidebar-text); 
+}
+
+.top_doctor1{
+	padding:3px 40px;
+	background-color: #EDF115;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor2{
+	padding:3px 40px;
+	background-color: #45CF30;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor3{
+	padding:3px 40px;
+	background-color: #E015F1;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor4{
+	padding:3px 40px;
+	background-color: #F17115;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor5{
+	padding:3px 40px;
+	background-color: #2715F1;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor6{
+	padding:3px 40px;
+	background-color: #FE0BAB;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor7{
+	padding:3px 40px;
+	background-color: #75EC9D;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+.top_doctor8{
+	padding:3px 40px;
+	background-color: #9C9F00;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	word-spacing: 2px; 
+	position: absolute;
+	top: 25px;
+	left: -45px;
+ transform: rotate(-50deg); 
+}
+
+ 

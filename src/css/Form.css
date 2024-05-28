@@ -1,0 +1,485 @@
+ 
+  input{ 
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.2); 
+  font-size: 16px; 
+  transition: all 0.3s ease; 
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 20px;
+}
+
+ 
+/* Additional styling for focus state */
+input:focus {
+  outline: none;
+  border-color: var(--accent-green);  
+  box-shadow: 0 0 5px var(--accent-green-light);  
+}
+
+
+input :hover{ 
+  border: 1px solid var(--accent-green-soft) !important; 
+}
+  /* input :focus{ 
+  border: 1px solid var(--accent-green) !important; 
+} */
+/* button */
+.btn{
+background-color: var(--accent-green);
+border: 2px solid var(--accent-green) !important;  
+color: var(--white) !important; 
+border-radius: 7.70833px !important;  
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 17px !important; 
+display: flex;
+align-items: center;
+text-align: center; 
+white-space: nowrap; 
+border: none ;
+outline: none ;
+padding: 9px   20px;
+cursor: pointer; 
+}
+
+ .swal2-confirm{
+  background-color: var(--accent-green);
+border: 2px solid var(--accent-green) !important;  
+color: var(--white) !important; 
+border-radius: 7.70833px !important;  
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 17px !important; 
+display: flex;
+align-items: center;
+text-align: center; 
+white-space: nowrap; 
+border: none ;
+outline: none ;
+padding: 9px   20px;
+ }
+
+ .btn_outline{
+border: 2px solid var(--accent-green) !important;  
+background-color: var(--accent-green-light) !important;
+color: var(--accent-green) !important; 
+border-radius: 7.70833px !important;  
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 17px !important; 
+display: flex;
+align-items: center;
+text-align: center; 
+white-space: nowrap; 
+border: none ;
+outline: none ;
+padding: 9px   20px;
+cursor: pointer; 
+}
+
+ 
+.swal2-confirm:hover { 
+border: 2px solid var(--accent-green) ;  
+background-color: var(--accent-green-light);
+color: var(--accent-green) !important; 
+}
+.btn:hover { 
+border: 2px solid var(--accent-green) ;  
+background-color: var(--accent-green-light);
+color: var(--accent-green) !important; 
+}
+  .btn_outline:hover { 
+border: 2px solid var(--accent-green) !important;  
+background-color: var(--accent-green) !important;
+color: var(--white) !important; 
+}
+button { 
+   text-align: center; 
+white-space: nowrap; 
+border: none ;
+outline: none ;
+border-radius: 5px;
+cursor: pointer; 
+}
+/* button:active { 
+    border: 2px solid var(--accent-green);
+     padding: 9px 20px;
+} */
+
+#custom-btn-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-green);
+    background-color: var(--accent-green-light); 
+    border-radius: 0px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px; 
+		font-weight: bold;
+		border:1px solid  var(--accent-green-light);
+}
+
+#register-select{
+padding: 10px;
+border-radius: 5px;
+margin-top: 3px;
+   border-radius: 8px;
+  background: var(--white);
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 20px;
+}
+
+
+
+#custom-btn-two:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-green);
+    background-color: #EEE9FD; 
+     border-radius: 0px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px; 
+		font-weight: bold;
+		border:1px solid  var(--accent-green-light);
+}
+#custom-btn-two-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-green);
+    background-color: var(--accent-green-light); 
+    border-radius: 0px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px; 
+		font-weight: bold;
+		border:1px solid  var(--accent-green);
+    box-shadow: 0 0 5px  var(--accent-green-light);  
+}
+
+#custom-btn{
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold !important;
+  background-color: var(--accent-green); 
+  border: none;
+  color: var(--white);
+}
+
+#custom-btn:hover{
+  padding: 10px  ;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold !important;
+   background-color: var(--accent-green-soft);
+    color: var(--white); 
+}
+
+ 
+ Select{
+width: 100%;
+outline: none;
+margin-top: 3px;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+font-size: 16px; 
+transition: all 0.3s ease; 
+border-radius: 8px;
+background: var(--white);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 20px;
+}
+Select:focus {
+  outline: none;
+  border-color: var(--accent-green);  
+  box-shadow: 0 0 5px var(--accent-green-light);  
+}
+
+Select :hover{ 
+  border: 1px solid var(--accent-green-light) !important; 
+}
+ textarea{
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px; 
+  transition: all 0.3s ease; 
+}
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-green);  
+  box-shadow: 0 0 5px var(--accent-green-light);  
+}
+
+textarea :hover{ 
+  border: 1px solid var(--accent-green-light) !important; 
+}
+
+.css-t3ipsp-control {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: default;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    background-color: hsl(0, 0%, 100%);
+    border-color: var(--accent-purple)!important;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 0 1px var(--box-shadow);
+    box-sizing: border-box;
+}
+
+/* Targeting the control (container) */
+.react-select__control {
+  border: 1px solid var(--text);
+  border-radius: 4px;
+}
+
+/* Targeting the focused state of the control */
+.react-select__control--is-focused {
+  box-shadow: 0 0 0 1px var(--black);
+}
+
+/* Targeting the individual option */
+.react-select__option {
+  background-color: var(--white); /* Default background color */
+  color: var(--text); /* Default text color */
+}
+
+/* Targeting the focused state of the option */
+.react-select__option--is-focused {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Targeting the dropdown menu */
+.react-select__menu {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-first-card-h{
+	margin-bottom: 5px;
+  font-size: 12px;
+	color: var(--small-text);  
+}
+.dashboard-first-card-p{
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: var(--text);
+}
+
+
+/* #custom-btn:active{
+  padding: 10px  ;
+  width: 100%;
+  text-align: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold !important;
+    border: 1px solid var(--accent-purple);
+} */
+
+/* Adjust icon margin for spacing */
+/* button svg {
+  margin-right: 5px !important;
+} */
+
+/* Additional styling for focus state */
+/* button:focus {
+  border-color: #007bff;  
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
+} */
+
+
+.flex-date-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.de-active {
+    background-color: var(--accent-red-light)!important;
+    border: 1px solid var(--accent-red)!important;
+    border-radius: 3px!important;
+    color: var(--accent-red)!important;
+    padding: 0.15rem 1rem!important;
+}
+
+.table-link-active {
+    background-color: #29cc962c!important;
+    border: 1px solid var(--accent-green-light)!important;
+    border-radius: 3px!important;
+    color: var(--accent-green)!important;
+    padding: 0.15rem 1rem!important;
+}
+
+.container_reg form .user__details {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;  
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;  
+color: var(--black); 
+}
+
+.container_reg form .user__details .input__box {
+  margin-bottom: 20px;
+  width: calc(50% - 20px);
+}
+
+.close-span-icon{ 
+  padding: 2px; 
+  border-radius: 5px;
+}
+.close-span-icon:hover{
+	border:1px solid  var(--accent-green);
+  box-shadow: 0 0 5px  var(--accent-green-light);  
+  color: var(--accent-green);
+}
+
+
+.dashboard-first-icon-boards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var();
+    background-color: var(--accent-green-light); 
+    border-radius: 5px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px;
+		gap: 3px;
+		font-weight: bold;
+		border:1px solid  var(--accent-green-light);
+}
+.dashboard-first-icon-boards:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-green);
+    background-color: var(--accent-green-light); 
+    border-radius: 5px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px;
+		gap: 3px;
+		font-weight: bold;
+		border:1px solid  var(--accent-green);
+}
+
+.dashboard-first-icon-boards-move{
+	display: flex;
+	align-items: center;
+}
+
+ .dashboard-first-card-boards {
+    display: flex;
+    justify-content: space-between; 
+		align-items: center;
+}
+
+
+.image_gallery{
+  padding: 20px 30px;
+  margin-top: 20px;
+ 
+}
+
+.ang-dash-notfound{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-self: center !important;
+  height: 100% !important ;
+}
+
+
+
+form#ticket-form {
+  gap: 0.95rem;
+}
+form#ticket-form,
+form#ticket-form .form-grp {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form#ticket-form .form-grp_row {
+  display: flex;
+  gap: 1.25rem;
+}
+ 
+form#ticket-form .form-grp_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+ .editor {
+  
+  /* height: 180px; */
+  margin-bottom: 2rem;
+}
+
+.formik-errors{
+	font-size: 0.6rem !important;
+	color: red !important;
+	font-style: italic;
+}

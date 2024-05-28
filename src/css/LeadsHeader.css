@@ -1,0 +1,229 @@
+.logo_area_leads{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--white);
+}
+
+.logo-leads-img{
+	width: 35px;
+	height: 35px;
+}
+
+.client-header {
+	 grid-area: client-header;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+/* .client-header img {
+  width: 11.5rem;
+} */
+
+.client-header nav {
+  background-color: var(--white);
+  border-radius: 25px;
+  display: flex;
+  border: 3px solid var(--white);
+  backdrop-filter: blur(5px);
+}
+
+.client-header nav a {
+  color: var(--black);
+  padding: .5rem .85rem;
+  border-radius: 25px;
+  transition: var(--transition);
+}
+
+.client-header nav a:hover {
+  color: var(--black);
+}
+
+.client-header nav a.selected {
+  background-color: var( --accent-green);
+  color: var(--white);
+}
+
+.client-header .user-info {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.client-header .user-info p {
+  color: var(--black);
+  font-weight: bold;
+  user-select: none;
+}
+
+.client-header .dropdown {
+  background-color: var(--white);
+  color: var(--black);
+  position: absolute;
+  top: 5rem;
+  right: 2.15rem;
+  font-weight: bold;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 5px;
+  border: 1px solid var( --accent-green);
+  transition: var(--transition);
+  box-shadow: var(--box-shadow);
+}
+.client-header .dropdown:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: -7px;
+  right: 15px;
+  border-bottom: 7px solid var(--white);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+.client-header .dropdown.display {
+  top: 4.5rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.client-header .dropdown .drop-item {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  font-weight: bold;
+  padding: .85rem .65rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--white);
+  transition: var(--transition);
+}
+.client-header .dropdown .drop-item:hover {
+  background-color: var( --accent-green);
+  color: var(--white);
+}
+
+.client-header .dropdown button {
+  background-color: var(--white);
+  outline: none;
+  border: none;
+}
+
+.client-header .menu-btn {
+  display: none;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid var( --accent-orange);
+}
+.client-header .btn-line {
+  background-color: var(--white);
+  width: 30px;
+  height: 3px;
+  transition: var(--transition);
+}
+.client-header .btn-line:nth-child(2) {
+  width: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.client-header .menu-btn.close .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 6px);
+}
+.client-header .menu-btn.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+.client-header .menu-btn.close .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -5px);
+}
+
+.mobile-nav {
+  background-color: var(--white);
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+}
+
+.mobile-nav.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav > div a {
+  color: var(--black);
+  padding: .5rem 2rem;
+  transition: var(--transition);
+  border-bottom: .5px solid #e9e9e9;
+}
+
+.mobile-nav > div a.selected {
+  background-color: var( --accent-green);
+  color: var(--white);
+}
+
+.mobile-nav .dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav .dropdown-container a {
+  display: flex;
+  gap: .5rem;
+  padding: 1rem 2rem;
+}
+
+.mobile-nav .dropdown-container  {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  padding: .75rem;
+}
+
+  .dropdown-container2 div {
+    display: flex;
+    color: var(--black) !important;
+    padding: 0.5rem 2rem !important;
+    transition: var(--transition) !important;
+    border-bottom: 0.5px solid #e9e9e9 !important;
+    align-items: center;
+}
+
+  .dropdown-a  {
+ color: var(--txt-black) !important;
+ 
+  padding-right:10px;
+}
+
+/* --- Media Queries --- */
+@media only screen and (max-width: 835px) {
+  .client-header {
+    padding: 1rem;
+  }
+  .client-header nav,
+  .client-header .user-info {
+    display: none;
+  }
+  .client-header .dropdown {
+    right: 1.5rem;
+  }
+  .client-header .menu-btn {
+    display: block;
+  }
+}

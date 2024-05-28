@@ -1,0 +1,357 @@
+ 
+
+/* // DashboardCalender */ */
+
+.DashboardCalender-top-btn {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Calender-top-btn-sup {
+  display: flex;
+}
+
+.Create-event-Calender {
+  width: 90%;
+  height: 2rem;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+  font-size: 1.4rem;
+  background-color: var(--accent-green) !important;
+  color: var(--white) !important;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  font-family: sans-serif;
+  /* // border: 4px solid #e6e6e6; */
+  position: relative;
+  
+ 
+}
+
+.contain-Calendar{
+ background-color: #fff !important;
+ padding: 1rem;
+margin-top: 2rem;
+border: 1px solid #e8e8e8 !important;
+}
+
+.calendar a {
+  color: grey;
+}
+
+.cell {
+  background: #fffeee;
+  width: 14.2857%;
+  height: 90px;
+  font-size: 0.7em;
+  box-shadow: 0 0px 1px #393939;
+}
+
+.cell .date {
+  margin: 4px;
+}
+
+.current {
+  background: #d3edd3;
+}
+
+.current .date {
+  font-weight: bold;
+}
+
+.otherMonth {
+  background: #f7f7f7;
+}
+
+.otherMonth .date {
+  color: #bfbfbf;
+}
+
+.addEventOnDay {
+  display: inline-block;
+  color: #4f4f4f;
+  text-decoration: none;
+  margin-left: 4px;
+  background: #e1e1e1;
+  padding: 0 6px;
+  border-radius: 3px;
+}
+
+.miniEvent {
+  background: #1f86ef;
+  color: white;
+  padding: 3px;
+  font-size: 1em;
+  cursor: pointer;
+    /* //  color: #e7713c; */
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.miniEvent.holiday {
+  background: #3fb73f4c;
+  color: #3fb73f;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.miniEvent.busy {
+  background: #e7723c4c;
+   color: #e7713c;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.navigation {
+  width: 100%;
+  padding: 10px 15px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
+
+.navigation .monthAndYear {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation .monthAndYear a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px;
+  background: #27bc27;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  text-shadow: 0 0px 2px #727272;
+}
+
+.navigation .back,
+.navigation .forward {
+  cursor: pointer;
+  font-size: 0.7em;
+  color: grey;
+  
+}
+
+.navigation .back {
+  text-align: left;
+  display: flex;
+    align-items: center;
+}
+
+.navigation .forward {
+    text-align: right; 
+  display: flex; 
+  align-items: center;
+}
+
+.dayLabel {
+  font-weight: bold;
+  text-align: center;
+  height: auto;
+  padding: 10px 0;
+  background: #e9e9e9;
+  border-bottom: 3px solid #cacaca;
+}
+ 
+ 
+
+ 
+.button-green {
+  width: 100%;
+  background: #3fb73f;
+  border: 0;
+  border-bottom: 3px solid green;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-red {
+  background: #c82727;
+  border: 0;
+  border-bottom: 3px solid #a51616;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.377);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ 
+
+.eventModal p {
+  margin-bottom: 24px;
+}
+
+.eventModal p:first-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.eventModal .delete {
+  display: block;
+  background: #df3317;
+  border-bottom: 2pxsolid #a90c0c;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 0.8em;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+.eventModal .button-red {
+  margin-top: 8px;
+}  
+
+.feedback {
+  position: absolute;
+  width: 90%;
+  padding: 16px 0;
+  left: 5%;
+  text-align: center;
+  bottom: 5%;
+  background: #3fb73f;
+  border-bottom: 3px solid green;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+ 
+  
+@media only screen and (max-width: 1400px) {
+ .admin-row-graph-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem 0px;
+}
+ .Average-container-card1 { 
+    width: 100% !important;
+  background-color: var(--white) !important;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  
+}
+.Average-container-card2 {
+   
+    width: 100% !important;
+  background-color: var(--white) !important;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  
+}
+}
+
+ 
+@media only screen and (max-width: 980px) {
+.row-Average-container-card{
+  display: grid !important;
+  grid-template-columns:   1fr;
+  margin: 2rem 0px;
+  
+}
+}
+
+
+.panel {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 0 !important;
+   padding-bottom: 20px;
+}
+
+.panel-heading {
+  background: #005b90 !important;;
+  border-radius: 0;
+  padding: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+   
+}
+
+.panel-heading .panel-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: #dce0f3;
+
+}
+
+/* #areaChart path[Attributes Style] {
+  fill: #39c7aa;
+  stroke: none;
+  fill-opacity: 1;
+} */
+
+
+.container-panel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem ;
+}
+
+@media only screen and (max-width: 1500px) {
+	.container-panel {
+    width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+}
+@media only screen and (max-width: 1300px) {
+	.container-panel {
+    width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr  ;
+}
+}
+@media only screen and (max-width: 980px) {
+	.container-panel {
+    width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr   ;
+margin: auto;
+}
+}
+@media only screen and (max-width: 660px) {
+	.container-panel {
+    width: 100%;
+display: grid;
+grid-template-columns: 1fr;
+margin: auto;
+}
+}
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 

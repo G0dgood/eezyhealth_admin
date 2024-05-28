@@ -1,0 +1,225 @@
+/* .dashboard-first-icon-boards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var();
+    background-color: #ffcccc; 
+    border-radius: 5px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px;
+				gap: 3px;
+				font-weight: bold;
+					border:1px solid  #ffcccc;
+}
+.dashboard-first-icon-boards:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-green);
+    background-color: #ffcccc; 
+    border-radius: 5px;
+    font-size: smaller;
+    white-space: nowrap;
+    padding: 0px 10px;
+    height: 30px;
+				gap: 3px;
+				font-weight: bold;
+				border:1px solid  var(--accent-green);
+}
+
+.dashboard-first-icon-boards-move{
+	display: flex;
+	align-items: center;
+}
+
+ .dashboard-first-card-boards {
+    display: flex;
+    justify-content: space-between; 
+				align-items: center;
+} */
+
+.tasks-board-items-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 2rem;
+}
+
+.tasks-board-container-sup{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+ width: 280px;
+	padding: 8px 12px;
+	background-color: #ededed;
+	border-radius: 6px;
+	gap: 5rem;
+	color: var(--small-text);
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.tasks-board-container-sup-icon{
+		display: flex;
+	align-items: center;
+		gap: 1rem;
+}
+
+.BsFillRocketTake{
+	display: flex;
+	align-items: center;
+		gap: 0.5rem;
+}
+
+.FiPlus-circle{
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		border-radius: 20px;
+	 border: 1px solid #ededed; 
+}
+.FiPlus-circle:hover{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid var(--small-text); 
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		border-radius: 20px;
+}
+
+/* .tasks-board-container-head{
+	background-color: cadetblue; 
+} */
+
+.tasks-board-container-sup-card{
+ border: 1px solid #cdd1d3;
+	border-radius: 10px;
+	padding: 1rem;
+	margin-bottom: 1rem; 
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: var(--white); 
+	height: 100px;
+}
+.tasks-board-container-sup-card:hover{
+	border:1px solid  var(--accent-green);
+	border-radius: 10px;
+	padding: 1rem;
+	margin-bottom: 1rem; 
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .tasks-board-container-sup-header{  
+				display: flex; 
+
+} */
+
+/* input[type=checkbox] {
+  position: relative;
+	border: 2px solid var(--accent-green);
+	border-radius: 2px;
+	background: none;
+	cursor: pointer;
+	line-height: 0;
+	margin: 0 .6em 0 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 20px;
+	width: 20px;
+	-webkit-appearance: none;
+  opacity: .5;
+		border-radius: 5px;
+} */
+
+/* .tasks-board-container-sup-header input[type=checkbox]:hover {
+  opacity: 1;
+}
+
+.tasks-board-container-sup-header input[type=checkbox]:checked {
+  background-color: var(--accent-green);
+  opacity: 1;
+} */
+
+input[type=checkbox]:before {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 4px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+
+.tasks-board-container-sup-card-text{
+	font-size: 14px;
+	color: var(--small-text);
+	font-weight: bold;
+}
+
+
+.tasks-board-container-second{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-top: 1rem; */
+}
+
+.Ugent{
+background-color: var(--accent-green-light);
+color: var(--accent-green);
+font-weight: bold;
+padding: 4px 14px;
+border-radius: 20px;
+}
+
+.Ugent-img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #ededed;
+			display: flex; 
+			justify-content: center;
+	align-items: center;
+	color: #c5c5c5;
+}
+
+.Ugent-container{
+		display: flex; 
+	align-items: center;
+	gap: 10px;
+}
+
+.Ugent-img-text{
+		color: var(--black);
+	font-size: 16px;
+}
+
+.ugent_container{
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-between;
+ align-items: center;
+ gap: 10px;  
+}
+
+@media (max-width: 1200px) {
+  .tasks-board-items-container {
+ 	display: grid;
+	grid-template-columns: 1fr 1fr;
+gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tasks-board-items-container {
+   	display: grid;
+	grid-template-columns: 1fr ;
+gap: 2rem;
+  }
+}

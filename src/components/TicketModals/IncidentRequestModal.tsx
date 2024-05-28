@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import { Modal } from 'react-bootstrap'
+import TicketForm from './TicketForm'
+import ModalHeader from '../Modals/ModalHeader'
+
+const IncidentRequestModal = ({ headerTitle }: any) => {
+
+
+ const [show, setShow] = useState(false);
+
+ return (
+  <div>
+   <button onClick={() => setShow(true)} className='btn'>
+    Raise Incident
+   </button>
+   <Modal
+    size="lg"
+    show={show}
+    backdrop="static"
+    keyboard={false}>
+    <ModalHeader setShow={setShow} headerTitle={headerTitle} />
+    <Modal.Body>
+     <TicketForm
+      type={"INCIDENT"}
+      setShow={setShow}
+     />
+    </Modal.Body>
+   </Modal>
+  </div>
+ )
+}
+
+export default IncidentRequestModal

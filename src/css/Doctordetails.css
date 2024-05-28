@@ -1,0 +1,55 @@
+.doctor_details_container{
+	padding: 1rem 2rem;
+		display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.doctor_details_container_sub{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.file_container{
+	width: 56px;
+	height: 56px;
+	background-color: var(--white);
+	border-radius: 50px;
+}
+
+.file_container_main{
+		display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.file_container_sub{
+			display: flex;
+	align-items: center;
+		gap: 5px;
+}
+.file_container_sub small {
+	font-size: 12px;
+	color: var(--small-text);
+}
+.file_container_sub p {
+	font-size: 15px;
+	color: var(--black);
+}
+
+.biography_container{
+		padding: 1rem 2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+}
+.biography_container h3{
+	font-size: 18px;
+	color: var(--black);
+}
+.biography_container p{
+	font-size: 16px;
+	color: var(--small-text);
+	line-height:25px;
+	word-spacing: 5px;
+}
